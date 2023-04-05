@@ -1,0 +1,24 @@
+/* Write your CSS here */
+/* Write your CSS here */
+.li_container {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid rgb(202, 199, 199);
+  padding: 0px;
+  list-style: none;
+  margin: 0px;
+  width: 100%;
+}
+
+ul :p {
+  font-size: 15px;
+  font-weight: 500;
+}
+.delte_icon {
+  width: 20px;
+  height: 20px;
+}
+.btn {
+  border: none;
+  background-color: transparent;
+}

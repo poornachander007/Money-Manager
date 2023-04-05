@@ -1,0 +1,124 @@
+/* Write your CSS here */
+/* Write your CSS here */
+
+* {
+  margin: 10px;
+}
+
+.app_container {
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content_container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  box-shadow: 1px 1px 1px 1px rgb(153, 153, 221);
+}
+
+.profile_container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  border-radius: 10px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 10px;
+}
+.userName {
+  font-size: 25px;
+  color: blue;
+  font-weight: bold;
+}
+
+.wishes {
+  color: rgb(13, 3, 32);
+}
+
+.monyManger {
+  color: rgb(14, 14, 238);
+  font-weight: bold;
+}
+
+.moneyDetails_container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px;
+}
+
+.AddTransactionAndHistory {
+  display: flex;
+}
+
+.addTransaction_container {
+  border: 1px solid rgb(124, 120, 120);
+  padding: 10px;
+  width: 40%;
+  box-shadow: 1px 1px 1px 1px #5f5d5d;
+  border-radius: 8px;
+}
+
+.addTransactionHeading {
+  color: black;
+  font-weight: bold;
+}
+
+.titleInput {
+  color: rgb(19, 16, 16);
+}
+.inputs {
+  padding: 5px;
+  border-radius: 8px;
+}
+.amountInput {
+  color: rgb(19, 16, 16);
+}
+
+.amountType {
+  color: rgb(19, 16, 16);
+}
+
+.selectInput {
+  color: rgb(19, 16, 16);
+  padding: 5px;
+  border-radius: 8px;
+}
+
+.optionItem {
+  color: rgb(19, 16, 16);
+}
+
+.addButton {
+  border-radius: 8px;
+  background-color: blue;
+  padding: 5px;
+  color: white;
+  font-weight: bold;
+}
+
+.History_container {
+  border: 1px solid rgb(124, 120, 120);
+  box-shadow: 1px 1px 1px 1px #9b9797;
+  width: 55%;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.historyHeading {
+  color: black;
+  font-weight: bold;
+}
+.headings_container {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid rgb(24, 23, 23);
+  padding: 0px;
+}
+
+.transaction_ul_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* border: 1px solid rgb(211, 209, 209); */
+  padding: 0px;
+}
